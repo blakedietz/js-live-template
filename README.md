@@ -9,5 +9,5 @@ An extensive set of javascript live templates for use in Intellij IDEs. These li
 Put `es6.xml` inside of the following directory:
 
 ```bash
-/Users/<your-user-name>/Library/Preferences/<intellij-product-install>/templates
+~/Library/Preferences/<intellij-product-install>/templates
 ```
