@@ -1,0 +1,25 @@
+{
+  "name": "js-live-template",
+  "version": "1.0.0",
+  "description": "Converts live template xml to documentation.",
+  "main": "index.js",
+  "scripts": {
+    "make-docs": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blakedietz/js-live-template.git"
+  },
+  "author": "blakedietz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blakedietz/js-live-template/issues"
+  },
+  "homepage": "https://github.com/blakedietz/js-live-template#readme",
+  "devDependencies": {
+    "xml2json": "^0.11.0"
+  },
+  "dependencies": {
+    "ejs": "^2.5.5"
+  }
+}

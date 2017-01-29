@@ -1,0 +1,50 @@
+## Description
+
+An extensive set of javascript live templates for use in JetBrains IDEs. These live templates are based off of https://atom.io/packages/es6-javascript.
+
+## Documentation
+
+<table>
+    <thead>
+        <tr>
+            <th>Live Template Short Hand</th>
+            <th>Description</th>
+            <th>Template </th>
+        </tr>
+    </thead>
+    <tbody>
+    <% for(var i = 0;  i < templates.length; i++) { %>
+        <tr>
+            <td> <%= templates[i].name %> </td>
+            <td> <%= templates[i].description %> </td>
+            <td>
+                <pre>
+<%= templates[i].value -%>
+                </pre>
+            </td>
+        </tr>
+    <% } %>
+    </tbody>
+</table>
+
+## Installation Instructions
+
+### macOS
+
+There are two ways to install:
+
+#### Using settings.jar
+
+1. File > Import Settings
+1. Select the settings.jar file
+1. Check Live templates in the Select Components to Import dialog
+1. Click ok in the Select Components to Import dialog
+1. Click ok when prompted to restart
+
+#### Copying es6.xml
+
+Put `es6.xml` inside of the following directory:
+
+```bash
+~/Library/Preferences/<intellij-product-install>/templates
+```
