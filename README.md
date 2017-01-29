@@ -918,7 +918,7 @@ function $name$($arguments$) {
     </tbody>
 </table>
 
-## Installation Instructions
+## Installation
 
 ### macOS
 
