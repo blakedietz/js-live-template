@@ -10,8 +10,5 @@ renderFile(`${__dirname}/documentation.tpl.ejs`, { templates: json.templateSet.t
         if(err) {
             return console.log(err);
         }
-
-        console.log("The file was saved!");
     });
 });
-
