@@ -19,7 +19,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Declarations: var statement </td>
             <td>
                 <pre>
-                    var $name$;                </pre>
+var $name$;                </pre>
             </td>
         </tr>
     
@@ -28,7 +28,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Declarations: var assignment </td>
             <td>
                 <pre>
-                    var $name$ = $value$;                </pre>
+var $name$ = $value$;                </pre>
             </td>
         </tr>
     
@@ -37,7 +37,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Declarations: let statement </td>
             <td>
                 <pre>
-                    let $name;                </pre>
+let $name;                </pre>
             </td>
         </tr>
     
@@ -46,7 +46,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Declarations: let assignment </td>
             <td>
                 <pre>
-                    let $name$ = $value$;                </pre>
+let $name$ = $value$;                </pre>
             </td>
         </tr>
     
@@ -55,7 +55,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Declarations: const statement </td>
             <td>
                 <pre>
-                    const $name$;                </pre>
+const $name$;                </pre>
             </td>
         </tr>
     
@@ -64,7 +64,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Declarations: const assignment </td>
             <td>
                 <pre>
-                    const $name$ = $value$                </pre>
+const $name$ = $value$                </pre>
             </td>
         </tr>
     
@@ -73,7 +73,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Declarations: const symbol </td>
             <td>
                 <pre>
-                    const $name$ = Symbol(&#39;$name$&#39;);                </pre>
+const $name$ = Symbol(&#39;$name$&#39;);                </pre>
             </td>
         </tr>
     
@@ -82,7 +82,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Flow Control: if statement </td>
             <td>
                 <pre>
-                    if ($condition$) {
+if ($condition$) {
   $END$
 }                </pre>
             </td>
@@ -93,7 +93,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Flow Control: else statement </td>
             <td>
                 <pre>
-                    else {
+else {
   $END$
 }                </pre>
             </td>
@@ -104,7 +104,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Flow Control: if else statement </td>
             <td>
                 <pre>
-                    if ($condition1$) {
+if ($condition1$) {
   $then1$
 } else {
   $then2$
@@ -117,7 +117,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Flow Control: else if statement </td>
             <td>
                 <pre>
-                    else if ($condition$) {
+else if ($condition$) {
   $end$
 }                </pre>
             </td>
@@ -128,7 +128,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Flow Control: for loop </td>
             <td>
                 <pre>
-                    for (let $index$ = 0; $index$ &lt; $iterable$.length; $index$++) {
+for (let $index$ = 0; $index$ &lt; $iterable$.length; $index$++) {
   $END$
 }                </pre>
             </td>
@@ -139,7 +139,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Flow Control: for in loop </td>
             <td>
                 <pre>
-                    for (let $key$ in $source$) {
+for (let $key$ in $source$) {
   if ($source$.hasOwnProperty($key$)) {
     $END$ 
   }
@@ -152,7 +152,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Flow Control: for of loop (ES6) </td>
             <td>
                 <pre>
-                    for (let $key$ of $source$) {
+for (let $key$ of $source$) {
   $END$
 }                </pre>
             </td>
@@ -163,7 +163,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Flow Control: while loop </td>
             <td>
                 <pre>
-                    while ($condition$) {
+while ($condition$) {
   $END$
 }                </pre>
             </td>
@@ -174,7 +174,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Flow Control: try/catch </td>
             <td>
                 <pre>
-                    try {
+try {
   $try_body$
 } catch ($error$) {
   $catch_body$
@@ -187,7 +187,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Flow Control: try/finally </td>
             <td>
                 <pre>
-                    try {
+try {
   $try_body$
 } finally {
   $finally_body$
@@ -200,7 +200,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Flow Control: try/catch/finally </td>
             <td>
                 <pre>
-                    try {
+try {
   $try_body$
 } catch ($error$) {
   $catch_body$
@@ -215,7 +215,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Functions: anonymous function </td>
             <td>
                 <pre>
-                    function ($arguments$) { $END$ }                </pre>
+function ($arguments$) { $END$ }                </pre>
             </td>
         </tr>
     
@@ -224,7 +224,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Functions: immediately-invoked function expression (IIFE) </td>
             <td>
                 <pre>
-                    (($arguments$) =&gt; {
+(($arguments$) =&gt; {
   $function_body$
 })($passed_arguments$);                </pre>
             </td>
@@ -235,7 +235,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Functions: function apply </td>
             <td>
                 <pre>
-                    $fn$.apply($context$, $arguments$);                </pre>
+$fn$.apply($context$, $arguments$);                </pre>
             </td>
         </tr>
     
@@ -244,7 +244,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Functions: function call </td>
             <td>
                 <pre>
-                    $fn$.call($context$, $arguments$);                </pre>
+$fn$.call($context$, $arguments$);                </pre>
             </td>
         </tr>
     
@@ -253,7 +253,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Functions: function bind </td>
             <td>
                 <pre>
-                    $fn$.bind($context$, $arguments$);                </pre>
+$fn$.bind($context$, $arguments$);                </pre>
             </td>
         </tr>
     
@@ -262,7 +262,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Functions: arrow function (ES6) </td>
             <td>
                 <pre>
-                    ($arguments$) =&gt; $statement$                </pre>
+($arguments$) =&gt; $statement$                </pre>
             </td>
         </tr>
     
@@ -271,7 +271,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Functions: arrow function with body (ES6) </td>
             <td>
                 <pre>
-                    ($arguments$) =&gt; {
+($arguments$) =&gt; {
   $END$
 }                </pre>
             </td>
@@ -282,7 +282,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Functions: generator function (ES6) </td>
             <td>
                 <pre>
-                    function* ($arguments$) {
+function* ($arguments$) {
   $END$
 }                </pre>
             </td>
@@ -293,7 +293,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Functions: named generator function (ES6) </td>
             <td>
                 <pre>
-                    function* $name$ ($arguments$) {
+function* $name$ ($arguments$) {
   $END$
 }                </pre>
             </td>
@@ -304,7 +304,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Iterables:  forEach loop (chainable) </td>
             <td>
                 <pre>
-                    $iterable$.forEach(($item$)) =&gt; {
+$iterable$.forEach(($item$)) =&gt; {
   $END$
 });                </pre>
             </td>
@@ -315,7 +315,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Iterables: map function (chainable) </td>
             <td>
                 <pre>
-                    $iterable$.map(($item$)) =&gt; {
+$iterable$.map(($item$)) =&gt; {
   return $END$
 });                </pre>
             </td>
@@ -326,7 +326,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Iterables: reduce function (chainable) </td>
             <td>
                 <pre>
-                    $iterable$.reduce(($previous$, $current$) =&gt; {
+$iterable$.reduce(($previous$, $current$) =&gt; {
   return $body$
 }, $initial$);                </pre>
             </td>
@@ -337,7 +337,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Iterables: filter function (chainable) </td>
             <td>
                 <pre>
-                    $iterable$.filter(($item$) =&gt; {
+$iterable$.filter(($item$) =&gt; {
   // return true to remove item from collection
   $END$
 });                </pre>
@@ -349,7 +349,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Iterables: ES6 find function (chainable) </td>
             <td>
                 <pre>
-                    $iterable$.find(($item$) =&gt; {
+$iterable$.find(($item$) =&gt; {
   // return true to find single item if it is in the collection
   $END$
 });                </pre>
@@ -361,7 +361,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Objects and classes: class (ES6) </td>
             <td>
                 <pre>
-                    class $name$ {
+class $name$ {
   constructor($arguments$) {
     $END$
   }
@@ -374,7 +374,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Objects and classes: child class (ES6 syntax) </td>
             <td>
                 <pre>
-                    class $name$ extends $base$ {
+class $name$ extends $base$ {
   constructor($arguments$) {
     super($arguments$);
     $END$
@@ -388,7 +388,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Objects and classes: class function (ES6 syntax) </td>
             <td>
                 <pre>
-                    $fn_name$($arguments$) {
+$fn_name$($arguments$) {
   $END$
 }                </pre>
             </td>
@@ -399,7 +399,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Objects and classes: key/value pair </td>
             <td>
                 <pre>
-                    $key$: $value$                </pre>
+$key$: $value$                </pre>
             </td>
         </tr>
     
@@ -408,7 +408,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Objects and classes: method (ES6 syntax) </td>
             <td>
                 <pre>
-                    $method$($arguments$) {
+$method$($arguments$) {
   $END$
 }                </pre>
             </td>
@@ -419,7 +419,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Objects and classes: setter (ES6 syntax) </td>
             <td>
                 <pre>
-                    set $property$($value$) {
+set $property$($value$) {
   $END$
 }                </pre>
             </td>
@@ -430,7 +430,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Objects and classes: prototype method (chainable) </td>
             <td>
                 <pre>
-                    $class$.prototype.$method_name$ = function ($arguments$) {
+$class$.prototype.$method_name$ = function ($arguments$) {
   $END$
 };                </pre>
             </td>
@@ -441,7 +441,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Returning values: return </td>
             <td>
                 <pre>
-                    return $value$;                </pre>
+return $value$;                </pre>
             </td>
         </tr>
     
@@ -450,7 +450,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Returning values: return this </td>
             <td>
                 <pre>
-                    return this;                </pre>
+return this;                </pre>
             </td>
         </tr>
     
@@ -459,7 +459,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Returning values: return null </td>
             <td>
                 <pre>
-                    return null;                </pre>
+return null;                </pre>
             </td>
         </tr>
     
@@ -468,7 +468,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Returning values: return true </td>
             <td>
                 <pre>
-                    return true;                </pre>
+return true;                </pre>
             </td>
         </tr>
     
@@ -477,7 +477,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Returning values: return false </td>
             <td>
                 <pre>
-                    return false;                </pre>
+return false;                </pre>
             </td>
         </tr>
     
@@ -486,7 +486,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Returning values: return 0 </td>
             <td>
                 <pre>
-                    return 0;                </pre>
+return 0;                </pre>
             </td>
         </tr>
     
@@ -495,7 +495,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Returning values: return -1 </td>
             <td>
                 <pre>
-                    return -1;                </pre>
+return -1;                </pre>
             </td>
         </tr>
     
@@ -504,7 +504,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Returning values: return Promise (ES6) </td>
             <td>
                 <pre>
-                    return new Promise((resolve, reject) =&gt; {
+return new Promise((resolve, reject) =&gt; {
   $END$
 });                </pre>
             </td>
@@ -515,7 +515,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Types: String </td>
             <td>
                 <pre>
-                    String                </pre>
+String                </pre>
             </td>
         </tr>
     
@@ -524,7 +524,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Types: Number </td>
             <td>
                 <pre>
-                    Number                </pre>
+Number                </pre>
             </td>
         </tr>
     
@@ -533,7 +533,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Types: Object </td>
             <td>
                 <pre>
-                    Object                </pre>
+Object                </pre>
             </td>
         </tr>
     
@@ -542,7 +542,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Types: Array </td>
             <td>
                 <pre>
-                    Array                </pre>
+Array                </pre>
             </td>
         </tr>
     
@@ -551,7 +551,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Types: Date </td>
             <td>
                 <pre>
-                    Date                </pre>
+Date                </pre>
             </td>
         </tr>
     
@@ -560,7 +560,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Types: RegExp </td>
             <td>
                 <pre>
-                    RegExp                </pre>
+RegExp                </pre>
             </td>
         </tr>
     
@@ -569,7 +569,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Types: typeof comparison </td>
             <td>
                 <pre>
-                    typeof $source$ === &#39;$type$&#39;;                </pre>
+typeof $source$ === &#39;$type$&#39;;                </pre>
             </td>
         </tr>
     
@@ -578,7 +578,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Types: instanceof comparison </td>
             <td>
                 <pre>
-                    $source$ instanceof $object$                </pre>
+$source$ instanceof $object$                </pre>
             </td>
         </tr>
     
@@ -587,7 +587,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Promises: new Promise (ES6) </td>
             <td>
                 <pre>
-                    new Promise((resolve, reject) =&gt; {
+new Promise((resolve, reject) =&gt; {
   $END$
 });                </pre>
             </td>
@@ -598,7 +598,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Promises: Promise.then (chainable) </td>
             <td>
                 <pre>
-                    $promise$.then(($value$) =&gt; {
+$promise$.then(($value$) =&gt; {
   $END$
 });                </pre>
             </td>
@@ -609,7 +609,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Promises: Promise.catch (chainable) </td>
             <td>
                 <pre>
-                    $promise$.catch(($err$) =&gt; {
+$promise$.catch(($err$) =&gt; {
   $END$
 });                </pre>
             </td>
@@ -620,7 +620,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> ES6 modules: module export </td>
             <td>
                 <pre>
-                    export $member$;                </pre>
+export $member$;                </pre>
             </td>
         </tr>
     
@@ -629,7 +629,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> ES6 modules: module import </td>
             <td>
                 <pre>
-                    import $END$ from &#39;$module$&#39;;                </pre>
+import $END$ from &#39;$module$&#39;;                </pre>
             </td>
         </tr>
     
@@ -638,7 +638,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> ES6 modules: module import as </td>
             <td>
                 <pre>
-                    import $exposed$ as $name$ from &#39;$module$&#39;;                </pre>
+import $exposed$ as $name$ from &#39;$module$&#39;;                </pre>
             </td>
         </tr>
     
@@ -647,7 +647,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> ES6 modules: named module export </td>
             <td>
                 <pre>
-                    import { $name$ } from &#39;$module$&#39;;                </pre>
+import { $name$ } from &#39;$module$&#39;;                </pre>
             </td>
         </tr>
     
@@ -656,7 +656,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> BDD testing (Mocha, Jasmine, etc.): describe </td>
             <td>
                 <pre>
-                    describe(&#39;$description$&#39;, () =&gt; {
+describe(&#39;$description$&#39;, () =&gt; {
   $END$
 });                </pre>
             </td>
@@ -667,7 +667,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> BDD testing (Mocha, Jasmine, etc.): asynchronous &#34;it&#34; </td>
             <td>
                 <pre>
-                    it(&#39;$description$&#39;, (done) =&gt; {
+it(&#39;$description$&#39;, (done) =&gt; {
   $END$
 });                </pre>
             </td>
@@ -678,7 +678,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> BDD testing (Mocha, Jasmine, etc.): before </td>
             <td>
                 <pre>
-                    before(() =&gt; {
+before(() =&gt; {
   $END$
 });                </pre>
             </td>
@@ -689,7 +689,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> BDD testing (Mocha, Jasmine, etc.): before each </td>
             <td>
                 <pre>
-                    beforeEach(() =&gt; {
+beforeEach(() =&gt; {
   $END$
 });                </pre>
             </td>
@@ -700,7 +700,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> BDD testing (Mocha, Jasmine, etc.): after </td>
             <td>
                 <pre>
-                    after(() =&gt; {
+after(() =&gt; {
   $END$
 });                </pre>
             </td>
@@ -711,7 +711,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> BDD testing (Mocha, Jasmine, etc.): after each </td>
             <td>
                 <pre>
-                    afterEach(() =&gt; {
+afterEach(() =&gt; {
   $END$
 });                </pre>
             </td>
@@ -722,7 +722,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Console: console.log </td>
             <td>
                 <pre>
-                    console.log(&#39;$title$&#39;, $value$);                </pre>
+console.log(&#39;$title$&#39;, $value$);                </pre>
             </td>
         </tr>
     
@@ -731,7 +731,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Console: console.log (text only) </td>
             <td>
                 <pre>
-                    console.log($END$);                </pre>
+console.log($END$);                </pre>
             </td>
         </tr>
     
@@ -740,7 +740,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Console: console.error </td>
             <td>
                 <pre>
-                    console.error($END$);                </pre>
+console.error($END$);                </pre>
             </td>
         </tr>
     
@@ -749,7 +749,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Console: console.error </td>
             <td>
                 <pre>
-                    console.warn($END$);                </pre>
+console.warn($END$);                </pre>
             </td>
         </tr>
     
@@ -758,7 +758,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Timers: setTimeout </td>
             <td>
                 <pre>
-                    setInterval(() =&gt; {
+setInterval(() =&gt; {
   $END$
 }, $delay$);                </pre>
             </td>
@@ -769,7 +769,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Timers: setInterval </td>
             <td>
                 <pre>
-                    setTimeout(() =&gt; {
+setTimeout(() =&gt; {
   $END$
 }, $delay$);                </pre>
             </td>
@@ -780,7 +780,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Timers: setInterval </td>
             <td>
                 <pre>
-                    setImmediate(() =&gt; {
+setImmediate(() =&gt; {
   $END$
 });                </pre>
             </td>
@@ -791,7 +791,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> DOM specifics: addEventListener </td>
             <td>
                 <pre>
-                    $document$.addEventListener(&#39;$event$&#39;, function(e) {
+$document$.addEventListener(&#39;$event$&#39;, function(e) {
   $END$
 });                </pre>
             </td>
@@ -802,7 +802,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> DOM specifics: getElementById </td>
             <td>
                 <pre>
-                    $document$.getElementById(&#39;$id$&#39;);                </pre>
+$document$.getElementById(&#39;$id$&#39;);                </pre>
             </td>
         </tr>
     
@@ -811,7 +811,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> DOM specifics: getElementByClassName </td>
             <td>
                 <pre>
-                    Array.from($document$).getElementsByClassName(&#39;$class$&#39;);                </pre>
+Array.from($document$).getElementsByClassName(&#39;$class$&#39;);                </pre>
             </td>
         </tr>
     
@@ -820,7 +820,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> DOM specifics: getElementByClassName </td>
             <td>
                 <pre>
-                    Array.from($document$).getElementsByTagName(&#39;$class$&#39;);                </pre>
+Array.from($document$).getElementsByTagName(&#39;$class$&#39;);                </pre>
             </td>
         </tr>
     
@@ -829,7 +829,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> DOM specifics: querySelector </td>
             <td>
                 <pre>
-                    $document$.querySelector(&#39;$selector$&#39;);                </pre>
+$document$.querySelector(&#39;$selector$&#39;);                </pre>
             </td>
         </tr>
     
@@ -838,7 +838,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> DOM specifics: querySelectorAll </td>
             <td>
                 <pre>
-                    $document$.querySelectorAll(&#39;$selector$&#39;);                </pre>
+$document$.querySelectorAll(&#39;$selector$&#39;);                </pre>
             </td>
         </tr>
     
@@ -847,7 +847,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Node.js specifics:  Node.js style callback </td>
             <td>
                 <pre>
-                    (error, $value$) =&gt; { $END$ }                </pre>
+(error, $value$) =&gt; { $END$ }                </pre>
             </td>
         </tr>
     
@@ -856,7 +856,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Node.js specifics:  require a module </td>
             <td>
                 <pre>
-                    require(&#39;$module$&#39;);                </pre>
+require(&#39;$module$&#39;);                </pre>
             </td>
         </tr>
     
@@ -865,7 +865,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Node.js specifics:  export member </td>
             <td>
                 <pre>
-                    exports.$name$ = $value$;                </pre>
+exports.$name$ = $value$;                </pre>
             </td>
         </tr>
     
@@ -874,7 +874,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Node.js specifics:  module.exports </td>
             <td>
                 <pre>
-                    module.exports = $name$;                </pre>
+module.exports = $name$;                </pre>
             </td>
         </tr>
     
@@ -883,7 +883,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Node.js specifics:  attach an event handler (chainable) </td>
             <td>
                 <pre>
-                    $emitter$.on(&#39;$event$&#39;, $arguments$) =&gt; {
+$emitter$.on(&#39;$event$&#39;, $arguments$) =&gt; {
   $END$
 });                </pre>
             </td>
@@ -894,7 +894,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Miscellaneous: use strict </td>
             <td>
                 <pre>
-                    &#39;use strict&#39;;                </pre>
+&#39;use strict&#39;;                </pre>
             </td>
         </tr>
     
@@ -903,7 +903,7 @@ An extensive set of javascript live templates for use in JetBrains IDEs. These l
             <td> Functions: named function </td>
             <td>
                 <pre>
-                    function $name$($arguments$) {
+function $name$($arguments$) {
   $END$
 }                </pre>
             </td>
