@@ -1,6 +1,6 @@
 ## Description
 
-![](http://imgur.com/vH7X7xf)
+![Demo](http://i.imgur.com/vH7X7xf.gifv)
 
 An extensive set of javascript [live templates](https://www.jetbrains.com/help/idea/2016.1/live-templates.html) for use in JetBrains IDEs. These live templates are based off of https://atom.io/packages/es6-javascript.
 
