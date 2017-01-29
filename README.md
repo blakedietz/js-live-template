@@ -1,3 +1,9 @@
+## Table of Contents
+
+1. [Description](#description)
+1. [Documentation](#documentation)
+1. [Installation](#installation)
+
 ## Description
 
 An extensive set of javascript live templates for use in JetBrains IDEs. These live templates are based off of https://atom.io/packages/es6-javascript.
