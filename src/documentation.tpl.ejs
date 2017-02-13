@@ -8,7 +8,7 @@
 
 ## Description
 
-An extensive set of Javascript[live templates](https://www.jetbrains.com/help/idea/2016.1/live-templates.html) for use in JetBrains IDEs. These live templates are based off of https://atom.io/packages/es6-javascript.
+An extensive set of Javascript [live templates](https://www.jetbrains.com/help/idea/2016.1/live-templates.html) for use in JetBrains IDEs. These live templates are based off of https://atom.io/packages/es6-javascript.
 
 ## Documentation
 
