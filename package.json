@@ -2,7 +2,7 @@
   "name": "js-live-template",
   "version": "1.0.0",
   "description": "Converts live template xml to documentation.",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
     "make-docs": "node ./src/index.js"
   },
