@@ -8,7 +8,8 @@
 
 ## Description
 
-An extensive set of Javascript [live templates](https://www.jetbrains.com/help/idea/2016.1/live-templates.html) for use in JetBrains IDEs. These live templates are based off of https://atom.io/packages/es6-javascript.
+An extensive set of Javascript [live templates](https://www.jetbrains.com/help/idea/2016.1/live-templates.html) for use
+in JetBrains IDEs. These live templates are based off of https://atom.io/packages/es6-javascript.
 
 ## Documentation
 
@@ -21,8 +22,7 @@ An extensive set of Javascript [live templates](https://www.jetbrains.com/help/i
         </tr>
     </thead>
     <tbody>
-    
-        <tr>
+            <tr>
             <td> v </td>
             <td> Declarations: var statement </td>
             <td>
@@ -30,8 +30,7 @@ An extensive set of Javascript [live templates](https://www.jetbrains.com/help/i
 var $name$;                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> ve </td>
             <td> Declarations: var assignment </td>
             <td>
@@ -39,8 +38,7 @@ var $name$;                </pre>
 var $name$ = $value$;                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> l </td>
             <td> Declarations: let statement </td>
             <td>
@@ -48,8 +46,7 @@ var $name$ = $value$;                </pre>
 let $name$;                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> le </td>
             <td> Declarations: let assignment </td>
             <td>
@@ -57,8 +54,7 @@ let $name$;                </pre>
 let $name$ = $value$;                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> co </td>
             <td> Declarations: const statement </td>
             <td>
@@ -66,8 +62,7 @@ let $name$ = $value$;                </pre>
 const $name$;                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> coe </td>
             <td> Declarations: const assignment </td>
             <td>
@@ -75,8 +70,7 @@ const $name$;                </pre>
 const $name$ = $value$                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> cos </td>
             <td> Declarations: const symbol </td>
             <td>
@@ -84,8 +78,7 @@ const $name$ = $value$                </pre>
 const $name$ = Symbol(&#39;$name$&#39;);                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> if </td>
             <td> Flow Control: if statement </td>
             <td>
@@ -95,8 +88,7 @@ if ($condition$) {
 }                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> el </td>
             <td> Flow Control: else statement </td>
             <td>
@@ -106,8 +98,7 @@ else {
 }                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> ife </td>
             <td> Flow Control: if else statement </td>
             <td>
@@ -119,8 +110,7 @@ if ($condition1$) {
 }                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> ei </td>
             <td> Flow Control: else if statement </td>
             <td>
@@ -130,8 +120,7 @@ else if ($condition$) {
 }                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> fl </td>
             <td> Flow Control: for loop </td>
             <td>
@@ -141,8 +130,7 @@ for (let $index$ = 0; $index$ &lt; $iterable$.length; $index$++) {
 }                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> fi </td>
             <td> Flow Control: for in loop </td>
             <td>
@@ -154,8 +142,7 @@ for (let $key$ in $source$) {
 }                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> fo </td>
             <td> Flow Control: for of loop (ES6) </td>
             <td>
@@ -165,8 +152,7 @@ for (let $key$ of $source$) {
 }                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> wl </td>
             <td> Flow Control: while loop </td>
             <td>
@@ -176,8 +162,7 @@ while ($condition$) {
 }                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> tc </td>
             <td> Flow Control: try/catch </td>
             <td>
@@ -189,8 +174,7 @@ try {
 }                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> tf </td>
             <td> Flow Control: try/finally </td>
             <td>
@@ -202,8 +186,7 @@ try {
 }                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> tcf </td>
             <td> Flow Control: try/catch/finally </td>
             <td>
@@ -217,8 +200,7 @@ try {
 }                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> f </td>
             <td> Functions: anonymous function </td>
             <td>
@@ -226,8 +208,7 @@ try {
 function ($arguments$) { $END$ }                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> iife </td>
             <td> Functions: immediately-invoked function expression (IIFE) </td>
             <td>
@@ -237,8 +218,7 @@ function ($arguments$) { $END$ }                </pre>
 })($passed_arguments$);                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> fa </td>
             <td> Functions: function apply </td>
             <td>
@@ -246,8 +226,7 @@ function ($arguments$) { $END$ }                </pre>
 $fn$.apply($context$, $arguments$);                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> fc </td>
             <td> Functions: function call </td>
             <td>
@@ -255,8 +234,7 @@ $fn$.apply($context$, $arguments$);                </pre>
 $fn$.call($context$, $arguments$);                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> fb </td>
             <td> Functions: function bind </td>
             <td>
@@ -264,8 +242,7 @@ $fn$.call($context$, $arguments$);                </pre>
 $fn$.bind($context$, $arguments$);                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> af </td>
             <td> Functions: arrow function (ES6) </td>
             <td>
@@ -273,8 +250,7 @@ $fn$.bind($context$, $arguments$);                </pre>
 ($arguments$) =&gt; $statement$                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> afb </td>
             <td> Functions: arrow function with body (ES6) </td>
             <td>
@@ -284,8 +260,7 @@ $fn$.bind($context$, $arguments$);                </pre>
 }                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> gf </td>
             <td> Functions: generator function (ES6) </td>
             <td>
@@ -295,8 +270,7 @@ function* ($arguments$) {
 }                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> gfn </td>
             <td> Functions: named generator function (ES6) </td>
             <td>
@@ -306,8 +280,7 @@ function* $name$ ($arguments$) {
 }                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> fe </td>
             <td> Iterables:  forEach loop (chainable) </td>
             <td>
@@ -317,8 +290,7 @@ $iterable$.forEach(($item$)) =&gt; {
 });                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> map </td>
             <td> Iterables: map function (chainable) </td>
             <td>
@@ -328,8 +300,7 @@ $iterable$.map(($item$)) =&gt; {
 });                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> reduce </td>
             <td> Iterables: reduce function (chainable) </td>
             <td>
@@ -339,8 +310,7 @@ $iterable$.reduce(($previous$, $current$) =&gt; {
 }, $initial$);                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> filter </td>
             <td> Iterables: filter function (chainable) </td>
             <td>
@@ -351,8 +321,7 @@ $iterable$.filter(($item$) =&gt; {
 });                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> find </td>
             <td> Iterables: ES6 find function (chainable) </td>
             <td>
@@ -363,8 +332,7 @@ $iterable$.find(($item$) =&gt; {
 });                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> c </td>
             <td> Objects and classes: class (ES6) </td>
             <td>
@@ -376,8 +344,7 @@ class $name$ {
 }                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> cex </td>
             <td> Objects and classes: child class (ES6 syntax) </td>
             <td>
@@ -390,8 +357,7 @@ class $name$ extends $base$ {
 }                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> cf </td>
             <td> Objects and classes: class function (ES6 syntax) </td>
             <td>
@@ -401,8 +367,7 @@ $fn_name$($arguments$) {
 }                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> kv </td>
             <td> Objects and classes: key/value pair </td>
             <td>
@@ -410,8 +375,7 @@ $fn_name$($arguments$) {
 $key$: $value$                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> m </td>
             <td> Objects and classes: method (ES6 syntax) </td>
             <td>
@@ -421,8 +385,7 @@ $method$($arguments$) {
 }                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> set </td>
             <td> Objects and classes: setter (ES6 syntax) </td>
             <td>
@@ -432,8 +395,7 @@ set $property$($value$) {
 }                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> proto </td>
             <td> Objects and classes: prototype method (chainable) </td>
             <td>
@@ -443,8 +405,7 @@ $class$.prototype.$method_name$ = function ($arguments$) {
 };                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> r </td>
             <td> Returning values: return </td>
             <td>
@@ -452,8 +413,7 @@ $class$.prototype.$method_name$ = function ($arguments$) {
 return $value$;                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> rth </td>
             <td> Returning values: return this </td>
             <td>
@@ -461,8 +421,7 @@ return $value$;                </pre>
 return this;                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> rn </td>
             <td> Returning values: return null </td>
             <td>
@@ -470,8 +429,7 @@ return this;                </pre>
 return null;                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> rt </td>
             <td> Returning values: return true </td>
             <td>
@@ -479,8 +437,7 @@ return null;                </pre>
 return true;                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> rf </td>
             <td> Returning values: return false </td>
             <td>
@@ -488,8 +445,7 @@ return true;                </pre>
 return false;                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> r0 </td>
             <td> Returning values: return 0 </td>
             <td>
@@ -497,8 +453,7 @@ return false;                </pre>
 return 0;                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> r-1 </td>
             <td> Returning values: return -1 </td>
             <td>
@@ -506,8 +461,7 @@ return 0;                </pre>
 return -1;                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> rp </td>
             <td> Returning values: return Promise (ES6) </td>
             <td>
@@ -517,8 +471,7 @@ return new Promise((resolve, reject) =&gt; {
 });                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> S </td>
             <td> Types: String </td>
             <td>
@@ -526,8 +479,7 @@ return new Promise((resolve, reject) =&gt; {
 String                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> N </td>
             <td> Types: Number </td>
             <td>
@@ -535,8 +487,7 @@ String                </pre>
 Number                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> O </td>
             <td> Types: Object </td>
             <td>
@@ -544,8 +495,7 @@ Number                </pre>
 Object                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> A </td>
             <td> Types: Array </td>
             <td>
@@ -553,8 +503,7 @@ Object                </pre>
 Array                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> D </td>
             <td> Types: Date </td>
             <td>
@@ -562,8 +511,7 @@ Array                </pre>
 Date                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> Rx </td>
             <td> Types: RegExp </td>
             <td>
@@ -571,8 +519,7 @@ Date                </pre>
 RegExp                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> tof </td>
             <td> Types: typeof comparison </td>
             <td>
@@ -580,8 +527,7 @@ RegExp                </pre>
 typeof $source$ === &#39;$type$&#39;;                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> iof </td>
             <td> Types: instanceof comparison </td>
             <td>
@@ -589,8 +535,7 @@ typeof $source$ === &#39;$type$&#39;;                </pre>
 $source$ instanceof $object$                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> p </td>
             <td> Promises: new Promise (ES6) </td>
             <td>
@@ -600,8 +545,7 @@ new Promise((resolve, reject) =&gt; {
 });                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> then </td>
             <td> Promises: Promise.then (chainable) </td>
             <td>
@@ -611,8 +555,7 @@ $promise$.then(($value$) =&gt; {
 });                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> catch </td>
             <td> Promises: Promise.catch (chainable) </td>
             <td>
@@ -622,8 +565,7 @@ $promise$.catch(($err$) =&gt; {
 });                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> ex </td>
             <td> ES6 modules: module export </td>
             <td>
@@ -631,8 +573,7 @@ $promise$.catch(($err$) =&gt; {
 export $member$;                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> import </td>
             <td> ES6 modules: module import </td>
             <td>
@@ -640,8 +581,7 @@ export $member$;                </pre>
 import $END$ from &#39;$module$&#39;;                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> ima </td>
             <td> ES6 modules: module import as </td>
             <td>
@@ -649,8 +589,7 @@ import $END$ from &#39;$module$&#39;;                </pre>
 import $exposed$ as $name$ from &#39;$module$&#39;;                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> imn </td>
             <td> ES6 modules: named module export </td>
             <td>
@@ -658,8 +597,7 @@ import $exposed$ as $name$ from &#39;$module$&#39;;                </pre>
 import { $name$ } from &#39;$module$&#39;;                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> desc </td>
             <td> BDD testing (Mocha, Jasmine, etc.): describe </td>
             <td>
@@ -669,8 +607,7 @@ describe(&#39;$description$&#39;, () =&gt; {
 });                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> ita </td>
             <td> BDD testing (Mocha, Jasmine, etc.): asynchronous &#34;it&#34; </td>
             <td>
@@ -680,8 +617,7 @@ it(&#39;$description$&#39;, (done) =&gt; {
 });                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> bef </td>
             <td> BDD testing (Mocha, Jasmine, etc.): before </td>
             <td>
@@ -691,8 +627,7 @@ before(() =&gt; {
 });                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> befe </td>
             <td> BDD testing (Mocha, Jasmine, etc.): before each </td>
             <td>
@@ -702,8 +637,7 @@ beforeEach(() =&gt; {
 });                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> after </td>
             <td> BDD testing (Mocha, Jasmine, etc.): after </td>
             <td>
@@ -713,8 +647,7 @@ after(() =&gt; {
 });                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> afte </td>
             <td> BDD testing (Mocha, Jasmine, etc.): after each </td>
             <td>
@@ -724,8 +657,7 @@ afterEach(() =&gt; {
 });                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> cl </td>
             <td> Console: console.log </td>
             <td>
@@ -733,8 +665,7 @@ afterEach(() =&gt; {
 console.log(&#39;$title$&#39;, $value$);                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> cll </td>
             <td> Console: console.log (text only) </td>
             <td>
@@ -742,8 +673,7 @@ console.log(&#39;$title$&#39;, $value$);                </pre>
 console.log($END$);                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> ce </td>
             <td> Console: console.error </td>
             <td>
@@ -751,8 +681,7 @@ console.log($END$);                </pre>
 console.error($END$);                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> cw </td>
             <td> Console: console.error </td>
             <td>
@@ -760,8 +689,7 @@ console.error($END$);                </pre>
 console.warn($END$);                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> st </td>
             <td> Timers: setTimeout </td>
             <td>
@@ -771,8 +699,7 @@ setInterval(() =&gt; {
 }, $delay$);                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> si </td>
             <td> Timers: setInterval </td>
             <td>
@@ -782,8 +709,7 @@ setTimeout(() =&gt; {
 }, $delay$);                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> sim </td>
             <td> Timers: setInterval </td>
             <td>
@@ -793,8 +719,7 @@ setImmediate(() =&gt; {
 });                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> ae </td>
             <td> DOM specifics: addEventListener </td>
             <td>
@@ -804,8 +729,7 @@ $document$.addEventListener(&#39;$event$&#39;, function(e) {
 });                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> gi </td>
             <td> DOM specifics: getElementById </td>
             <td>
@@ -813,8 +737,7 @@ $document$.addEventListener(&#39;$event$&#39;, function(e) {
 $document$.getElementById(&#39;$id$&#39;);                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> gc </td>
             <td> DOM specifics: getElementByClassName </td>
             <td>
@@ -822,8 +745,7 @@ $document$.getElementById(&#39;$id$&#39;);                </pre>
 Array.from($document$).getElementsByClassName(&#39;$class$&#39;);                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> gt </td>
             <td> DOM specifics: getElementByClassName </td>
             <td>
@@ -831,8 +753,7 @@ Array.from($document$).getElementsByClassName(&#39;$class$&#39;);               
 Array.from($document$).getElementsByTagName(&#39;$class$&#39;);                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> qs </td>
             <td> DOM specifics: querySelector </td>
             <td>
@@ -840,8 +761,7 @@ Array.from($document$).getElementsByTagName(&#39;$class$&#39;);                <
 $document$.querySelector(&#39;$selector$&#39;);                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> qsa </td>
             <td> DOM specifics: querySelectorAll </td>
             <td>
@@ -849,8 +769,7 @@ $document$.querySelector(&#39;$selector$&#39;);                </pre>
 $document$.querySelectorAll(&#39;$selector$&#39;);                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> cb </td>
             <td> Node.js specifics:  Node.js style callback </td>
             <td>
@@ -858,8 +777,7 @@ $document$.querySelectorAll(&#39;$selector$&#39;);                </pre>
 (error, $value$) =&gt; { $END$ }                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> re </td>
             <td> Node.js specifics:  require a module </td>
             <td>
@@ -867,8 +785,7 @@ $document$.querySelectorAll(&#39;$selector$&#39;);                </pre>
 require(&#39;$module$&#39;);                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> em </td>
             <td> Node.js specifics:  export member </td>
             <td>
@@ -876,8 +793,7 @@ require(&#39;$module$&#39;);                </pre>
 exports.$name$ = $value$;                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> me </td>
             <td> Node.js specifics:  module.exports </td>
             <td>
@@ -885,8 +801,7 @@ exports.$name$ = $value$;                </pre>
 module.exports = $name$;                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> on </td>
             <td> Node.js specifics:  attach an event handler (chainable) </td>
             <td>
@@ -896,8 +811,7 @@ $emitter$.on(&#39;$event$&#39;, $arguments$) =&gt; {
 });                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> us </td>
             <td> Miscellaneous: use strict </td>
             <td>
@@ -905,8 +819,7 @@ $emitter$.on(&#39;$event$&#39;, $arguments$) =&gt; {
 &#39;use strict&#39;;                </pre>
             </td>
         </tr>
-    
-        <tr>
+            <tr>
             <td> fn </td>
             <td> Functions: named function </td>
             <td>
