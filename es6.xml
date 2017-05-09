@@ -1,4 +1,4 @@
-<templateSet group="es6">
+<templateSet group="EcmaScript 2016+">
   <template name="v" value="var $name$;" description="Declarations: var statement" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -77,7 +77,7 @@
     <variable name="condition" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
   </template>
-  <template name="fl" value="for (let $index$ = 0; $index$ &lt; $iterable$.length; $index$++) {&#10;  $END$&#10;}" description="Flow Control: for loop" toReformat="false" toShortenFQNames="true">
+  <template name="forl" value="for (let $index$ = 0; $index$ &lt; $iterable$.length; $index$++) {&#10;  $END$&#10;}" description="Flow Control: for loop" toReformat="false" toShortenFQNames="true">
     <variable name="index" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="iterable" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -358,7 +358,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="S" value="String" description="Types: String" toReformat="false" toShortenFQNames="true">
+  <template name="str" value="String" description="Types: String" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="true" />
@@ -410,7 +410,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="p" value="new Promise((resolve, reject) =&gt; {&#10;  $END$&#10;});" description="Promises: new Promise (ES6)" toReformat="false" toShortenFQNames="true">
+  <template name="P" value="new Promise((resolve, reject) =&gt; {&#10;  $END$&#10;});" description="Promises: new Promise with Arrow function executor(ES6)" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="true" />
@@ -501,7 +501,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="cl" value="console.log('$title$', $value$);" description="Console: console.log" toReformat="false" toShortenFQNames="true">
+  <template name="cv" value="console.log('$title$', $value$);" description="Console: console.log name, value" toReformat="false" toShortenFQNames="true">
     <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -509,7 +509,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="cll" value="console.log($END$);" description="Console: console.log (text only)" toReformat="false" toShortenFQNames="true">
+  <template name="cl" value="console.log($END$);" description="Console: console.log value" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="true" />
@@ -640,6 +640,85 @@
     </context>
   </template>
   <template name="fn" value="function $name$($arguments$) {&#10;  $END$&#10;}" description="Functions: named function" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="arguments" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="for" value="for (let $index$ = 0; $index$ &lt; $number$; $index$++) {&#10;  $END$&#10;}" description="Flow Control: for loop, index &lt; number" toReformat="true" toShortenFQNames="true">
+    <variable name="index" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="number" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="?nan" value="isNaN($SELECTION$$END$)" description="(Types: evaluate if value assigned is an NaN)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CoffeeScript" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="?num" value="Object.getPrototypeOf($VALUE$).constructor.name === 'Number'$END$&#10;" description="(Types: evaluate if value assigned is a Number)" toReformat="false" toShortenFQNames="true">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="?array" value="Array.isArray($VALUE$)$END$" description="(Types: evaluate if value assigned is an Array)" toReformat="false" toShortenFQNames="true">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="?bool" value="Object.getPrototypeOf($BOOL$).constructor.name === 'Boolean'" description="(Types: evaluate if value assigned is an Boolean instance)" toReformat="false" toShortenFQNames="true">
+    <variable name="BOOL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="??array" value="Object.getPrototypeOf($VALUE$).constructor.name === 'Array'$END$" description="(Types: evaluate if assigned value is an Array instance)" toReformat="false" toShortenFQNames="true">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="?str" value="Object.getPrototypeOf($BOOL$).constructor.name === 'String'" description="(Types: evaluate if value assigned is a String)" toReformat="false" toShortenFQNames="true">
+    <variable name="BOOL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="Pe" value="new Promise(function executor(resolve, reject) {&#10;  $END$ &#10;});" description="Promise: new Promise with named exectuor function (ES6)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="S" value="new Set($SET$)$END$" description="Types: new Set" toReformat="false" toShortenFQNames="true">
+    <variable name="SET" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="gfy" value="function *$NAME$" description="Functions: named [GeneratorFunction] with yield loop" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="as" value="async function $name$($arguments$) {&#10;  $END$&#10;}" description="Functions: named async function" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="arguments" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
