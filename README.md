@@ -829,7 +829,6 @@ function $name$($arguments$) {
 }                </pre>
             </td>
         </tr>
-    
     </tbody>
 </table>
 
