@@ -1,5 +1,3 @@
-![](http://i.imgur.com/vH7X7xf.gif)
-
 ## Table of Contents
 
 1. [Description](#description)
@@ -10,6 +8,8 @@
 
 An extensive set of Javascript [live templates](https://www.jetbrains.com/help/idea/2016.1/live-templates.html) for use
 in JetBrains IDEs. These live templates are based off of https://atom.io/packages/es6-javascript.
+
+![](http://i.imgur.com/vH7X7xf.gif)
 
 ## Documentation
 
