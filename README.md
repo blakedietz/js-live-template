@@ -1,5 +1,7 @@
 ## Table of Contents
 
+[![Join the chat at https://gitter.im/js-live-template/Lobby](https://badges.gitter.im/js-live-template/Lobby.svg)](https://gitter.im/js-live-template/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 1. [Description](#description)
 1. [Documentation](#documentation)
 1. [Installation](#installation)
