@@ -284,7 +284,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="m" value="$method$($arguments$) {&#10;  $END$&#10;}" description="Objects and classes: method (ES6 syntax)" toReformat="false" toShortenFQNames="true">
+  <template name="m" value="$method$($arguments$) {&#10;  $END$&#10;}," description="Objects and classes: method (ES6 syntax)" toReformat="false" toShortenFQNames="true">
     <variable name="method" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="arguments" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -527,21 +527,21 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="st" value="setInterval(() =&gt; {&#10;  $END$&#10;}, $delay$);" description="Timers: setTimeout" toReformat="false" toShortenFQNames="true">
+  <template name="si" value="setInterval(() =&gt; {&#10;  $END$&#10;}, $delay$);" description="Timers: setInterval" toReformat="false" toShortenFQNames="true">
     <variable name="delay" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="si" value="setTimeout(() =&gt; {&#10;  $END$&#10;}, $delay$);" description="Timers: setInterval" toReformat="false" toShortenFQNames="true">
+  <template name="st" value="setTimeout(() =&gt; {&#10;  $END$&#10;}, $delay$);" description="Timers: setTimeout" toReformat="false" toShortenFQNames="true">
     <variable name="delay" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="sim" value="setImmediate(() =&gt; {&#10;  $END$&#10;});" description="Timers: setInterval" toReformat="false" toShortenFQNames="true">
+  <template name="sim" value="setImmediate(() =&gt; {&#10;  $END$&#10;});" description="Timers: setImmediate" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="true" />
