@@ -696,7 +696,7 @@ console.warn($END$);                </pre>
             <td> Timers: setTimeout </td>
             <td>
                 <pre>
-setInterval(() =&gt; {
+setTimeout(() =&gt; {
   $END$
 }, $delay$);                </pre>
             </td>
@@ -706,7 +706,7 @@ setInterval(() =&gt; {
             <td> Timers: setInterval </td>
             <td>
                 <pre>
-setTimeout(() =&gt; {
+setInterval(() =&gt; {
   $END$
 }, $delay$);                </pre>
             </td>
