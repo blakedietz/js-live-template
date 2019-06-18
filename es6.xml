@@ -208,7 +208,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="fe" value="$iterable$.forEach(($item$)) =&gt; {&#10;  $END$&#10;});" description="Iterables:  forEach loop (chainable)" toReformat="false" toShortenFQNames="true">
+  <template name="fe" value="$iterable$.forEach(($item$) =&gt; {&#10;  $END$&#10;});" description="Iterables:  forEach loop (chainable)" toReformat="false" toShortenFQNames="true">
     <variable name="iterable" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="item" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -216,7 +216,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="map" value="$iterable$.map(($item$)) =&gt; {&#10;  return $END$&#10;});" description="Iterables: map function (chainable)" toReformat="false" toShortenFQNames="true">
+  <template name="map" value="$iterable$.map(($item$) =&gt; {&#10;  return $END$&#10;});" description="Iterables: map function (chainable)" toReformat="false" toShortenFQNames="true">
     <variable name="iterable" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="item" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
