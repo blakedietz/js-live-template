@@ -85,7 +85,8 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="fi" value="for (let $key$ in $source$) {&#10;  if ($source$.hasOwnProperty($key$)) {&#10;    $END$ &#10;  }&#10;}" description="Flow Control: for in loop" toReformat="false" toShortenFQNames="true">
+  <template name="fi" value="for ($VARKIND$ $key$ in $source$) {&#10;  if ($source$.hasOwnProperty($key$)) {&#10;    $END$ &#10;  }&#10;}" description="Flow Control: for in loop" toReformat="false" toShortenFQNames="true">
+    <variable name="VARKIND" expression="jsSuggestDefaultVariableKind" defaultValue="var" alwaysStopAt="false" />
     <variable name="key" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="source" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -93,7 +94,8 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="fo" value="for (let $key$ of $source$) {&#10;  $END$&#10;}" description="Flow Control: for of loop (ES6)" toReformat="false" toShortenFQNames="true">
+  <template name="fo" value="for ($VARKIND$ $key$ of $source$) {&#10;  $END$&#10;}" description="Flow Control: for of loop (ES6)" toReformat="false" toShortenFQNames="true">
+    <variable name="VARKIND" expression="jsSuggestDefaultVariableKind" defaultValue="var" alwaysStopAt="false" />
     <variable name="key" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="source" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
