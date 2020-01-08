@@ -76,6 +76,10 @@
   <template name="ei" value="else if ($condition$) {&#10;  $end$&#10;}" description="Flow Control: else if statement" toReformat="false" toShortenFQNames="true">
     <variable name="condition" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
   </template>
   <template name="fl" value="for (let $index$ = 0; $index$ &lt; $iterable$.length; $index$++) {&#10;  $END$&#10;}" description="Flow Control: for loop" toReformat="false" toShortenFQNames="true">
     <variable name="index" expression="" defaultValue="" alwaysStopAt="true" />
@@ -624,7 +628,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="on" value="$emitter$.on('$event$', $arguments$) =&gt; {&#10;  $END$&#10;});" description="Node.js specifics:  attach an event handler (chainable)" toReformat="false" toShortenFQNames="true">
+  <template name="on" value="$emitter$.on('$event$', ($arguments$) =&gt; {&#10;  $END$&#10;});" description="Node.js specifics:  attach an event handler (chainable)" toReformat="false" toShortenFQNames="true">
     <variable name="emitter" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="event" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="arguments" expression="" defaultValue="" alwaysStopAt="true" />
