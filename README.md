@@ -842,6 +842,7 @@ There are two ways to install:
 
 #### Using settings.jar
 
+1. [Download settings.jar from this repo](https://github.com/blakedietz/js-live-template/raw/master/settings.jar)
 1. File > Import Settings
 1. Select the settings.jar file
 1. Check Live templates in the Select Components to Import dialog
